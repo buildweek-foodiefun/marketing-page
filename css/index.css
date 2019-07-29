@@ -157,12 +157,18 @@ p {
 }
 .navContainer {
   border: 3px solid black;
+  display: flex;
+  justify-content: space-around;
 }
-.navContainer nav {
-  border: 2px solid purple;
+.navContainer .navLeft {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
-.navContainer div {
-  border: 2px solid purple;
+.navContainer .navRight {
+  border: 2px solid red;
 }
 footer {
   color: #22283B;
