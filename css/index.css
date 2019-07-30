@@ -176,7 +176,8 @@ img {
   font-size: 2rem;
 }
 .navContainer .navLeft .logo {
-  max-width: 70px;
+  max-width: 30px;
+  max-height: 30px;
 }
 .navContainer .navLeft .navA {
   display: flex;
@@ -198,7 +199,7 @@ img {
 .navContainer .navRight button {
   width: 150px;
   padding: 7px 8%;
-  background-color: #08A300;
+  background-color: #82B81F;
   border-radius: 10px;
   font-size: 2rem;
   cursor: pointer;
@@ -236,6 +237,7 @@ img {
 }
 .middle-content {
   display: flex;
+  background-color: #82B81F;
 }
 .middle-content .middle-img {
   width: 60%;
@@ -287,16 +289,18 @@ img {
   width: 60%;
 }
 .footer-container {
-  border: 3px solid black;
+  border: 3px solid orangered;
   background-color: #0A0345;
   display: flex;
   flex-direction: column;
 }
 .footer-container .footer-info {
-  border: 3px solid blue;
-  width: 70%;
+  border: 3px solid purple;
+  width: 80%;
+  margin: 1% 0;
   display: flex;
   justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
 }
 .footer-container .footer-info div {
   border: 2px solid yellow;
@@ -313,20 +317,28 @@ img {
   text-decoration: none;
 }
 .footer-container .copyright {
-  border: 3px solid blue;
-  max-height: 80px;
-  width: 70%;
+  max-height: 40px;
+  width: 500px;
+  margin: 1% 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.footer-container .copyright .copyright-logo {
-  border: 2px solid yellow;
-  max-width: 70px;
+.footer-container .copyright .cr-logo-container {
+  width: 20%;
 }
-.footer-container .copyright p {
-  border: 2px solid yellow;
-  font-size: 2rem;
+.footer-container .copyright .cr-logo-container .cr-logo {
+  max-height: 30px;
+  max-width: 30px;
+}
+.footer-container .copyright .copyright-text {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 footer {
   color: #22283B;
