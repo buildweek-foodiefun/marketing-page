@@ -161,7 +161,6 @@ img {
   margin: 0 auto;
 }
 .navContainer {
-  border: 3px solid orangered;
   background-color: #0A0345;
   max-height: 80px;
   display: flex;
