@@ -51,16 +51,17 @@
 
 .top-content{
     // border: 3px solid yellow;
+    margin: 0 10%;
     display: flex;
     .top-text{
-        border: 2px solid blue;
+        // border: 2px solid blue;
         width: 50%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         .top-text-logo{
-            .borderbox();
+            // .borderbox();
             width: 65%;
             padding: 5%;
             display: flex;
@@ -76,7 +77,7 @@
             color: #08A300;
         }
         p{
-            .borderbox();
+            // .borderbox();
             width: 65%;
             font-size: 3rem;
             padding: 5%;
@@ -88,40 +89,48 @@
     }
 }
 
-.middle-content{
-    // border: 3px solid yellow;
-    display: flex;
+.icons-container{
+    background-color: #0A0345;
+    max-height: 80px;
+}
+
+.middle-background{
     background-color: #82B81F;
-    .middle-img{
-        width: 50%;
-    }
-    .middle-text{
-        width: 50%;
+    .middle-content{
+        // border: 3px solid yellow;
         display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        .middle-header{
-            .borderbox();
-            font-family: 'Josefin Sans', sans-serif;
-            width: 65%;
-            padding: 4%;
+        margin: 0 10%;
+        .middle-img{
+            width: 50%;
         }
-        h2, p{
-            // border: 2px solid hotpink;
-            width: 70%;
-        }
-        h2{
+        .middle-text{
+            width: 50%;
             display: flex;
-            justify-content: flex-start;
-            font-size: 4rem;
-        }
-        p{
-            .borderbox();
-            font-size: 2rem;
-            font-family: 'Roboto', sans-serif;
-            width: 65%;
-            padding: 4%;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .middle-header{
+                // .borderbox();
+                font-family: 'Josefin Sans', sans-serif;
+                width: 65%;
+                padding: 4%;
+            }
+            h2, p{
+                // border: 2px solid hotpink;
+                width: 70%;
+            }
+            h2{
+                display: flex;
+                justify-content: flex-start;
+                font-size: 4rem;
+            }
+            p{
+                // .borderbox();
+                font-size: 2rem;
+                font-family: 'Roboto', sans-serif;
+                width: 65%;
+                padding: 4%;
+            }
         }
     }
 }
@@ -129,6 +138,7 @@
 .bottom-content{
     // border: 3px solid yellow;
     display: flex;
+    margin: 0 10%;
     .bottom-text{
         width: 50%;
         display: flex;
@@ -136,7 +146,7 @@
         flex-direction: column;
         align-items: center;
         .bottom-header{
-            .borderbox();
+            // .borderbox();
             font-family: 'Josefin Sans', sans-serif;
             width: 65%;
             padding: 4%;
@@ -151,7 +161,7 @@
             font-size: 4rem;
         }
         p{
-            .borderbox();
+            // .borderbox();
             font-size: 2rem;
             font-family: 'Roboto', sans-serif;
             width: 65%;
@@ -220,14 +230,20 @@
 }
 
 .about-container{
+    height: 100%;
+    background: url("img/food-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personal-container{
     border: 2px solid black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 3px solid purple;
     .userOne-container{
-        .borderbox();
+        // .borderbox();
         box-shadow: 2px 5px 20px;
         display: flex;
         justify-content: center;
@@ -235,21 +251,24 @@
         flex-direction: column;
         margin: 3% 0;
         .userOne-img{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 500px;
             max-height: 500px;
         }
         .userOne-text{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 800px;
+            margin: 2%;
+            font-family: 'Roboto', sans-serif;
             div{
+                font-family: 'Josefin Sans', sans-serif;
                 display: flex;
                 justify-content: flex-start;
             }
         }
     }
     .userTwo-container{
-        .borderbox();
+        // .borderbox();
         box-shadow: 2px 5px 20px;
         display: flex;
         justify-content: center;
@@ -257,21 +276,24 @@
         flex-direction: column;
         margin: 3% 0;
         .userTwo-img{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 500px;
             max-height: 500px;
         }
         .userTwo-text{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 800px;
+            margin: 2%;
+            font-family: 'Roboto', sans-serif;
             div{
+                font-family: 'Josefin Sans', sans-serif;
                 display: flex;
                 justify-content: flex-start;
             }
         }
     }
     .userThree-container{
-        .borderbox();
+        // .borderbox();
         box-shadow: 2px 5px 20px;
         display: flex;
         justify-content: center;
@@ -279,14 +301,17 @@
         flex-direction: column;
         margin: 3% 0;
         .userThree-img{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 500px;
             max-height: 500px;
         }
         .userThree-text{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 800px;
+            margin: 2%;
+            font-family: 'Roboto', sans-serif;
             div{
+                font-family: 'Josefin Sans', sans-serif;
                 display: flex;
                 justify-content: flex-start;
             }
@@ -301,16 +326,94 @@
         flex-direction: column;
         margin: 3% 0;
         .userFour-img{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 500px;
             max-height: 500px;
         }
         .userFour-text{
-            border: 2px solid red;
+            // border: 2px solid red;
             max-width: 800px;
+            margin: 2%;
+            font-family: 'Roboto', sans-serif;
             div{
+                font-family: 'Josefin Sans', sans-serif;
                 display: flex;
                 justify-content: flex-start;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        width: 100%;
+        border: 2px solid blue;
+    }
+    header{
+        background-color: #0A0345;
+        // border: 2px solid purple;
+        width: 100%;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        .navContainer{
+            // border: 2px solid orangered;
+            width: 100%;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .middle-background{
+        width:100%;
+        // border: 3px solid dodgerblue;
+    
+        .middle-content{
+            // border: 2px solid purple;
+            // max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .middle-img{
+                // border: 2px solid red;
+                width: 100%;
+            }
+            .middle-text{
+                // border: 2px solid red;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                .middle-header{
+                    // .borderbox();
+                    font-family: 'Josefin Sans', sans-serif;
+                    width: 100%;
+                    // padding: 4%;
+                }
+                h2, p{
+                    // border: 2px solid hotpink;
+                    width: 100%;
+                }
+                h2{
+                    display: flex;
+                    justify-content: flex-start;
+                    font-size: 3.8rem;
+                }
+                p{
+                    // .borderbox();
+                    font-size: 2rem;
+                    font-family: 'Roboto', sans-serif;
+                    width: 100%;
+                    padding: 4%;
+                }
             }
         }
     }
