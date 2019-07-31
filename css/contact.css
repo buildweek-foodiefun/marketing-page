@@ -72,18 +72,6 @@ ul {
   display: flex;
   flex-direction: row; 
 }
-.navigation-bar .navigation button {
-  width: 80px;
-  padding: 1px 5%;
-  background-color: rgb(138, 204, 31);
-  color: white;
-  border-radius: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  font-family: 'Lora', serif;
-}
-
-
 
 .container {
   display: grid;
@@ -176,8 +164,8 @@ section h2{
 }
 
 .contact-section {
-  background: #75b207;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .contact-section p{
@@ -236,3 +224,13 @@ section h2{
     font-size:2.0vw;
   }  
 }
+
+
+
+
+
+
+
+
+
+
