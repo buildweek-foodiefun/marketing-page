@@ -222,24 +222,34 @@ footer {
   display: flex;
 }
 .top-content .top-text {
+  border: 2px solid blue;
   width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
+.top-content .top-text .top-text-logo {
+  border: 3px solid black;
+  width: 65%;
+  padding: 5%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Josefin Sans', sans-serif;
+}
 .top-content .top-text h1,
 .top-content .top-text p {
   width: 70%;
 }
 .top-content .top-text h1 {
-  display: flex;
-  justify-content: center;
   font-size: 5rem;
   color: #08A300;
 }
 .top-content .top-text p {
+  border: 3px solid black;
+  width: 65%;
   font-size: 3rem;
+  padding: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .top-content .top-img {
@@ -259,6 +269,12 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.middle-content .middle-text .middle-header {
+  border: 3px solid black;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 65%;
+  padding: 4%;
+}
 .middle-content .middle-text h2,
 .middle-content .middle-text p {
   width: 70%;
@@ -269,8 +285,11 @@ footer {
   font-size: 4rem;
 }
 .middle-content .middle-text p {
+  border: 3px solid black;
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
+  width: 65%;
+  padding: 4%;
 }
 .bottom-content {
   display: flex;
@@ -282,6 +301,12 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.bottom-content .bottom-text .bottom-header {
+  border: 3px solid black;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 65%;
+  padding: 4%;
+}
 .bottom-content .bottom-text h2,
 .bottom-content .bottom-text p {
   width: 70%;
@@ -292,8 +317,11 @@ footer {
   font-size: 4rem;
 }
 .bottom-content .bottom-text p {
+  border: 3px solid black;
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
+  width: 65%;
+  padding: 4%;
 }
 .bottom-content .bottom-img {
   width: 50%;
@@ -357,7 +385,7 @@ footer {
 }
 .about-container .userOne-container {
   border: 3px solid black;
-  background-color: #4AF3FF;
+  box-shadow: 2px 5px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,11 +403,11 @@ footer {
 }
 .about-container .userOne-container .userOne-text div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .about-container .userTwo-container {
   border: 3px solid black;
-  background-color: #4AF3FF;
+  box-shadow: 2px 5px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -397,11 +425,11 @@ footer {
 }
 .about-container .userTwo-container .userTwo-text div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .about-container .userThree-container {
   border: 3px solid black;
-  background-color: #4AF3FF;
+  box-shadow: 2px 5px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,11 +447,11 @@ footer {
 }
 .about-container .userThree-container .userThree-text div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .about-container .userFour-container {
   border: 3px solid black;
-  background-color: #4AF3FF;
+  box-shadow: 2px 5px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -441,5 +469,5 @@ footer {
 }
 .about-container .userFour-container .userFour-text div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
