@@ -196,7 +196,7 @@ section h2{
   margin-left: 15em;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 500px){
   section div {
     width: 80%;
     padding-top: 2em;
