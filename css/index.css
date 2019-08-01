@@ -398,9 +398,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userOne-container .userOne-img {
+.personal-container .userOne-container .userOne-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userOne-container .userOne-profile-container .userOne-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userOne-container .userOne-profile-container .userOne-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userOne-container .userOne-profile-container .userOne-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userOne-container .userOne-text {
   max-width: 800px;
@@ -420,9 +435,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userTwo-container .userTwo-img {
+.personal-container .userTwo-container .userTwo-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userTwo-container .userTwo-profile-container .userTwo-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userTwo-container .userTwo-profile-container .userTwo-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userTwo-container .userTwo-profile-container .userTwo-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userTwo-container .userTwo-text {
   max-width: 800px;
@@ -442,9 +472,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userThree-container .userThree-img {
+.personal-container .userThree-container .userThree-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userThree-container .userThree-profile-container .userThree-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userThree-container .userThree-profile-container .userThree-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userThree-container .userThree-profile-container .userThree-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userThree-container .userThree-text {
   max-width: 800px;
@@ -464,9 +509,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userFour-container .userFour-img {
+.personal-container .userFour-container .userFour-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userFour-container .userFour-profile-container .userFour-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userFour-container .userFour-profile-container .userFour-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userFour-container .userFour-profile-container .userFour-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userFour-container .userFour-text {
   max-width: 800px;
@@ -486,9 +546,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userFive-container .userFive-img {
+.personal-container .userFive-container .userFive-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userFive-container .userFive-profile-container .userFive-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userFive-container .userFive-profile-container .userFive-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userFive-container .userFive-profile-container .userFive-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userFive-container .userFive-text {
   max-width: 800px;
@@ -508,9 +583,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userSix-container .userSix-img {
+.personal-container .userSix-container .userSix-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userSix-container .userSix-profile-container .userSix-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userSix-container .userSix-profile-container .userSix-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userSix-container .userSix-profile-container .userSix-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userSix-container .userSix-text {
   max-width: 800px;
@@ -530,9 +620,24 @@ footer {
   flex-direction: column;
   margin: 3% 0;
 }
-.personal-container .userSeven-container .userSeven-img {
+.personal-container .userSeven-container .userSeven-profile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.personal-container .userSeven-container .userSeven-profile-container .userSeven-img {
   max-width: 200px;
   max-height: 200px;
+}
+.personal-container .userSeven-container .userSeven-profile-container .userSeven-icons {
+  width: 20%;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-container .userSeven-container .userSeven-profile-container .userSeven-icons .icons {
+  text-decoration: none;
 }
 .personal-container .userSeven-container .userSeven-text {
   max-width: 800px;
