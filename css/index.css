@@ -215,8 +215,11 @@ footer {
   cursor: pointer;
 }
 .navContainer .navRight button a {
-  color: white;
   text-decoration: none;
+}
+.navContainer .navRight button:hover {
+  background-color: #fff;
+  color: #82B81F;
 }
 .top-content {
   margin: 0 10%;
