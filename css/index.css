@@ -352,8 +352,12 @@ footer {
 }
 .footer-container .footer-info a {
   font-size: 2rem;
-  color: white;
   text-decoration: none;
+  color: #E6E6E6;
+}
+.footer-container .footer-info a:hover {
+  color: white;
+  text-shadow: 0px 0px 3px lightgrey;
 }
 .footer-container .copyright {
   max-height: 40px;
@@ -650,6 +654,12 @@ footer {
   font-family: 'Josefin Sans', sans-serif;
   display: flex;
   justify-content: flex-start;
+}
+.icons li a {
+  color: #9124D6;
+}
+.icons li a:hover {
+  color: #B55FFF;
 }
 .contact-container {
   width: 100%;
