@@ -397,7 +397,6 @@ footer {
   align-items: center;
 }
 .personal-container .userOne-container {
-  background-image: url("MexicanFood.jpg");
   box-shadow: 2px 5px 20px;
   display: flex;
   justify-content: center;
@@ -425,8 +424,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userOne-container .userOne-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userOne-container .userOne-text div {
@@ -462,8 +461,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userTwo-container .userTwo-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userTwo-container .userTwo-text div {
@@ -499,8 +498,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userThree-container .userThree-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userThree-container .userThree-text div {
@@ -536,8 +535,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userFour-container .userFour-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userFour-container .userFour-text div {
@@ -573,8 +572,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userFive-container .userFive-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userFive-container .userFive-text div {
@@ -610,8 +609,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userSix-container .userSix-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userSix-container .userSix-text div {
@@ -647,8 +646,8 @@ footer {
   text-decoration: none;
 }
 .personal-container .userSeven-container .userSeven-text {
-  max-width: 800px;
-  margin: 2%;
+  max-width: 600px;
+  margin: 5%;
   font-family: 'Roboto', sans-serif;
 }
 .personal-container .userSeven-container .userSeven-text div {
